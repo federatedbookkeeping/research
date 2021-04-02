@@ -21,16 +21,18 @@ Me: independent developer, open source, crowdfunding / donations / grants
 digital nomad, now house owner and father
 worked at mozilla, ripple, sir tim berners-lee's company
 
-Pitch:
-* bookkeeping software, federate!
-* IOUs
-* business reporting (tax, reg)
-* live invoicing
-* sales tracking
-
-
 ## Morning session: lean startup methodology
+### pitch v1
+You have bookkeeping software
+open source
+pds enabled
+now, federate!
+IOUs
+business reporting
+live invoicing
+sales tracking
 
+### notes from session
 click dummy instead of stickies-on-whiteboard concept
 no-code duck-tape mvp instead of jira overview
 first real revenue instead of 10Y Excel Business Plan
@@ -70,6 +72,13 @@ Stay in R&D mode but apply it to both problem-solution fit as well as tech proto
 
 
 ## Afternoon session: pitching
+### Pitch v2
+* bookkeeping software, federate!
+* IOUs
+* business reporting (tax, reg)
+* live invoicing
+* sales tracking
+
 ### Guy Kawasaki Template slides
 Federated Bookkeeping
 --------

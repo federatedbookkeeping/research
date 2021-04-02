@@ -69,7 +69,6 @@
 * [Adminsoft Accounts](https://www.adminsoftware.biz/)
 * Brightbook
 * [FreshBooks](https://www.freshbooks.com/)
-* Kiwili Free Edition
 * [Manager](https://www.manager.io/download/)
 * Momenteo Free Edition
 * NCH Express Accounts
@@ -84,3 +83,7 @@
 * WP ERP Accounting
 * [ZarMoney](https://www.zarmoney.com/)
 * ZipBooks Free Edition
+
+
+## Invoice systems
+* [invoiced](https://www.invoiced.com/resources/docs/api/#invoice-object)* Kiwili Free Edition
