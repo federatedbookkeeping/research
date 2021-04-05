@@ -55,3 +55,19 @@ Maybe a completely standardized API?
 Maybe multi-integration via Solid is not such a bad idea after all...
 
 Plan for Monday: create a slide deck about Federate Bookkeeping (as a network data architecture, so compared to web and blockchain), to use for my Surf Research Week presentation. Related to https://michielbdejong.com/blog/25.html and CRDTs, but with a focus not only on authority and data copies / syncing, but also on access control.
+
+# 5
+
+Discovered https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/ and especially this quote:
+
+> I’d like to learn more about how federation between Nextcloud instances work to make it happen in Cospend. It would be great to be able to share a project across NC instances.
+
+Will try out Cospend. Reached out to https://github.com/eneiluj to find out how we can maybe work together to build a federated Cospend.
+
+So then we would have two prototypes with early adopters:
+* Federated Cospend, hopefully adopted by current Cospend users
+* Billing API integrations in a bookkeeping system
+
+For the billing API integrations I could target an open source bookkeeping system, or maybe develop one or more [QuickBooks apps](https://quickbooks.intuit.com/app/apps/home/). But I'm not sure what we would be testing if we simply create a product that is equivalent to the existing Synder and Greenback apps there.
+
+Now first need to create our slide deck for Surf Research Week.
