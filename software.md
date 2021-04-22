@@ -27,40 +27,64 @@
  
 
 ## To be reviewed
-* Adempiere
-* Akaunting
-* Apache OFBiz
-* Compiere
-* [Cospend on Nextcloud](https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/)
-* Dolibarr
-* ERPNext
-* Firefly
-* FrontAccounting
-* GnuCash
-* GNU Enterprise
-* GNUKhata
-* Grisbi
-* HomeBank
+
+### Prog Lang Stats
+* JAVA 8
+* C/C++ 7
+* PHP 6
+* Python 6
+* Perl 2
+* JS/TS 1
+* C# 1
+
+### JAVA
+* Adempiere (2006 - 2019)
+* Compiere (1999 - 2019)
 * iDempiere
-* [IHateMoney](https://ihatemoney.org/)
+* metasfresh
+* Apache OFBiz
 * JFire
 * [jPOS](http://jpos.org/)
-* KMyMoney
-* LedgerSMB
-* Ledger (CLI)
-* metasfresh
 * [MoneyBuster](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster&hl=en&gl=US)
-* Money Manager Ex
-* [MoneyPane in Solid OS](https://github.com/solid/money-pane)
-* Odoo (CE)
+
+### PHP
+* Akaunting
+* [Cospend on Nextcloud](https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/)
+* Dolibarr
+* Firefly iii
+* FrontAccounting
 * OpenBravo
-* Openmiracle
-* Skrooge
-* SQL-Ledger
+
+### Python
+* ERPNext
+* GNUKhata
+* [IHateMoney](https://ihatemoney.org/)
+* Odoo (CE)
 * Tryton
 * [Wave](https://www.waveapps.com)
 
+### C/C++
+* GnuCash
+* Grisbi
+* HomeBank
+* KMyMoney
+* Ledger (CLI)
+* Money Manager Ex
+* Skrooge
+
+### Perl
+* LedgerSMB
+* SQL-Ledger
+
+
+### JavaScript/TypeScript
+* [MoneyPane in Solid OS](https://github.com/solid/money-pane)
+
+### C#
+* Openmiracle
+
 ## Deprecated
+* GNU Enterprise
 * [Cyclos 3](https://www.cyclos.org/products/cyclos3/)
 * [ilp-kit](https://github.com/interledger-deprecated/ilp-kit)
 
