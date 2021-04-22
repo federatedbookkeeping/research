@@ -246,3 +246,21 @@ Maybe to reach an interesting demographic we should be a bookkeeping service bra
 StoreCove is a Dutch company, a bit like TradeShift it seems.
 They are an access point to the global e-invoicing network called Peppol.
 Should go through the whole list of https://peppol.eu/who-is-who/peppol-certified-aps/ and find out who's who.
+
+# 22
+Odoo (CE), Dolibarr, and ERPNext are the three largest open source ERP systems.
+Developed in PHP (Dolibarr) / Python (the other two). The Java-based ones (Compiere family) are less popular now than they were 10 years ago.
+We should talk to partners that offer hosting for one of these systems, and see if there is a business model there.
+
+Should also focus research on e-procurement now, and see how that could plug into the three big OS ERP systems. That could be a focus for an NGI Assure grant proposal.
+
+# Other related software
+* [jPOS](http://jpos.org/)
+  - java
+  - gateway for https://en.wikipedia.org/wiki/ISO_8583
+  - not a bookkeeping or ERP system
+
+  # Kissflow
+  https://kissflow.com/rad/low-code/
+  Interestingly, calls itself a cheaper and more versatile alternative to Tradeshift,
+  and also an automation platform (like the ones we're exploring in https://github.com/federatedbookkeeping/research/issues/2).

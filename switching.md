@@ -1,0 +1,1 @@
+Waveapps has this guide for switching from various competitors to them: https://support.waveapps.com/hc/en-us/articles/208621346
