@@ -27,7 +27,16 @@
  
 # Accounting and ERP
 ## Pretty big
-* Adempiere (2006 - present)
+* Dolibarr [~ 45](https://github.com/Dolibarr/dolibarr/pulse/monthly)
+ - php
+ - forum is active https://www.dolibarr.org/forum/
+
+* metasfresh [~ 16](https://github.com/metasfresh/metasfresh/pulse/monthly)
+  - java
+  - adempiere fork, free or hosted https://metasfresh.com/en/pricing/
+  - active https://github.com/metasfresh/metasfresh/issues
+
+* Adempiere (2006 - present) [~ 8](https://github.com/adempiere/adempiere/pulse/monthly)
   - java
   - active https://sourceforge.net/p/adempiere/discussion/623064/thread/9e5b1a7939/?limit=25#a169/0505
   - website seems slow
@@ -35,27 +44,23 @@
     - http://adempiere.org/site/partners
     - http://www.adempiere.com/Localization_Projects
 
-* iDempiere (2012 - present)
+* iDempiere (2012 - present) [~ 8](https://github.com/idempiere/idempiere/pulse/monthly)
   - java
   - active https://wiki.idempiere.org/en/Special:RecentChanges?hidebots=1&limit=50&days=7&enhanced=1&urlversion=2
   - 58 devs https://wiki.idempiere.org/en/IDempiere_World_Conference_2019
 
-## Active but not huge
-* metasfresh
-  - java
-  - adempiere fork, free or hosted https://metasfresh.com/en/pricing/
-  - active https://github.com/metasfresh/metasfresh/issues
+* Akaunting [~ 8](https://github.com/akaunting/akaunting/pulse/monthly)
+ - php
+ - active https://akaunting.com/forum
 
-* Apache OFBiz
+* Apache OFBiz [~ 6](https://github.com/apache/ofbiz-framework/pulse/monthly)
   - java
   - active https://lists.apache.org/list.html?user@ofbiz.apache.org
   - there are partners e.g. https://www.hotwaxsystems.com/contact-us/
   - hosted? https://cwiki.apache.org/confluence/display/OFBIZ/Is+OFBiz+for+Me
 
-* Akaunting
+* Firefly iii [~ 3](https://github.com/firefly-iii/firefly-iii/pulse/monthly)
  - php
- - active https://akaunting.com/forum
- - only 6 devs listed publicly https://github.com/akaunting
 
 # Other 
 * [jPOS](http://jpos.org/)
@@ -63,70 +68,54 @@
   - gateway for https://en.wikipedia.org/wiki/ISO_8583
   - not a bookkeeping or ERP system
 
-* [MoneyBuster](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster&hl=en&gl=US)
+* [MoneyBuster](https://play.google.com/store/apps/details?id=net.eneiluj.moneybuster&hl=en&gl=US) [~ 1](https://gitlab.com/eneiluj/moneybuster)
   - java
   - Android client for Nextcloud Cospend and IHateMoney shared budget management systems
-  - one developer: https://gitlab.com/eneiluj/moneybuster
 
-* [Cospend on Nextcloud](https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/)
- - one-person hobby project
+* [Cospend on Nextcloud](https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/) [~ 1](https://github.com/eneiluj/cospend-nc/pulse/monthly)
+  - php
 
-# To be reviewed
-* Dolibarr
+* FrontAccounting [~ 1](https://github.com/FrontAccountingERP/FA/pulse/monthly)
  - php
 
-* Firefly iii
- - php
-
-* FrontAccounting
- - php
-
-* OpenBravo
- - java
-
-* ERPNext
+* ERPNext [~ 38](https://github.com/frappe/erpnext/pulse/monthly)
   - python
 
-* GNUKhata
+
+* KMyMoney [~ 7](https://github.com/KDE/kmymoney/pulse/monthly)
+  - C/C++
+
+* GNUKhata [~ 3](https://gitlab.com/gnukhata/gkapp/activity)
   - python
 
-* [IHateMoney](https://ihatemoney.org/)
+* [IHateMoney](https://ihatemoney.org/) [ ~ 14](https://github.com/spiral-project/ihatemoney/pulse/monthly)
   - python
 
-* Odoo (CE)
+* Odoo (CE) [~ 97](https://github.com/odoo/odoo/pulse/monthly)
   - python
 
-* Tryton
+* Tryton [~ 3](https://github.com/tryton/tryton/pulse/monthly)
   - python
 
-* [Wave](https://www.waveapps.com)
-  - python
-
-* GnuCash
+* GnuCash [~ 29](https://github.com/Gnucash/gnucash/pulse/monthly)
   - C/C++
 
-* Grisbi
+* Grisbi [~ 3](https://github.com/grisbi/grisbi/pulse/monthly)
   - C/C++
 
-* HomeBank
+* Skrooge [~ 3](https://invent.kde.org/office/skrooge/activity)
   - C/C++
 
-* KMyMoney
-  - C/C++
-
-* Ledger (CLI)
-  - C/C++
-
-* Money Manager Ex
-  - C/C++
-
-* Skrooge
-  - C/C++
-
-* LedgerSMB
+* LedgerSMB [~ 3](https://github.com/ledgersmb/LedgerSMB/pulse/monthly)
   - Perl
 
-* SQL-Ledger
+* Ledger (CLI) [~ 2](https://github.com/ledger/ledger/pulse/monthly)
+  - C/C++
+
+* Money Manager Ex [~ 2](https://github.com/moneymanagerex/moneymanagerex/pulse/monthly)
+  - C/C++
+
+* SQL-Ledger [~ 0](https://github.com/Tekki/sql-ledger/pulse/monthly)
   - Perl
 
 * [MoneyPane in Solid OS](https://github.com/solid/money-pane)
@@ -134,17 +123,28 @@
   - only one dev
   - not usable yet
 
+## Deprecated
 * Openmiracle
+  - version 3 is the latest http://www.openmiracle.com/Download.aspx
+  - version 3 was from 2015 https://github.com/openmiracle/Openmiracle-V-3.0.0
   - c#
 
-## Deprecated
 * Compiere (Java, 1999 - 2009)
 * GNU Enterprise
 * JFire (2006 - 2011)
 * [Cyclos 3](https://www.cyclos.org/products/cyclos3/)
 * [ilp-kit](https://github.com/interledger-deprecated/ilp-kit)
 
+* HomeBank
+  - C/C++
+  - no longer maintained https://github.com/timonier/homebank
+
+* OpenBravo ERP
+ - java
+ - discontinued https://en.wikipedia.org/wiki/Openbravo#Openbravo_ERP
+
 ## Closed Source but Free to Use
+* [Wave](https://www.waveapps.com)
 * [Actual Budget](https://actualbudget.com/)
 * [Adminsoft Accounts](https://www.adminsoftware.biz/)
 * Brightbook
