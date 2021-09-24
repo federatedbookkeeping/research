@@ -38,6 +38,9 @@ In decreasing order of monthly code contributors:
 * ERPNext [~ 38](https://github.com/frappe/erpnext/pulse/monthly)
   - python
 
+* ERP5 [~ ?](https://lab.nexedi.com/nexedi/erp5/activity)
+  - python
+
 * GnuCash [~ 29](https://github.com/Gnucash/gnucash/pulse/monthly)
   - C/C++
 
