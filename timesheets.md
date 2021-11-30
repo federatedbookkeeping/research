@@ -37,7 +37,7 @@ We want to show case how our vision of Federated Bookkeeping can make internet u
 * Lambert Beekhuis (Netherlands) is the founder and developer of "AgendaUren", a hosted timekeeping application that integrates with Google Calendar
 
 #### Advisors:
-* Marc LaPorte (Canada) is the long-term visionary behind "WikiSuite"
+* Marc Laporte (Canada) is the long-term visionary behind "WikiSuite"
 * Michiel de Jong (Netherlands) is the founder of "Ponder Source" and sparked the "Federated Bookkeeping" movement
 
 
@@ -46,7 +46,7 @@ We want to show case how our vision of Federated Bookkeeping can make internet u
 * Add an API to [Nextcloud/TimeTracker](https://apps.nextcloud.com/apps/timetracker) (Bänz Schenk)
 * Add an API to [uren.muze.nl](https://uren.muze.nl) (Yvo Brevoort)
 * Add an API to [AgendaUren](https://agenda-uren.nl) (Lambert Beekhuis)
-* Add an API to [WikiSuite](https://wikisuite.org/Software) (Victor Emanouilov)
+* Add an API to [WikiSuite](https://wikisuite.org/) (Victor Emanouilov)
 * Develop a simple example time tracker app on top of m-ld, which can push its data to a configurable webhook (George Svarovsky)
 
 #### 1 Polyglot spec (3kEUR):
