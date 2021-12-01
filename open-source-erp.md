@@ -25,11 +25,20 @@
 * [x] https://www.thebalancesmb.com/top-free-or-open-source-accounting-programs-14071
 * [x] https://www.goodfirms.co/blog/the-8-best-free-and-open-source-accounting-software (good blogpost!)
  
+# Peppol AS4 implementations
+* [Oxalis](https://github.com/oxaliscommunity) (Java)
+* [Phase4](https://github.com/phax/phase4) (Java)
+* [Holodeck-B2B](https://github.com/holodeck-b2b/Holodeck-B2B) (Java)
+* [Domibus](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus) (Java)
+* [AS4.NET](https://ec.europa.eu/cefdigital/code/projects/EDELIVERY/repos/eessi-as4.net/browse) (C#)
+
 # Accounting and ERP
 In decreasing order of monthly code contributors:
 
 * Odoo (CE) [~ 97](https://github.com/odoo/odoo/pulse/monthly)
   - python
+  - odoo.com has a paid enterprise edition
+  - odoo.sh is like Heroku but specific to Odoo
 
 * Dolibarr [~ 45](https://github.com/Dolibarr/dolibarr/pulse/monthly)
  - php

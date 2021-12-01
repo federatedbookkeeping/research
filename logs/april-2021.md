@@ -264,3 +264,7 @@ Should also focus research on e-procurement now, and see how that could plug int
   https://kissflow.com/rad/low-code/
   Interestingly, calls itself a cheaper and more versatile alternative to Tradeshift,
   and also an automation platform (like the ones we're exploring in https://github.com/federatedbookkeeping/research/issues/2).
+
+# 26 April
+
+South Africa: stokvels (local credit groups). Their ubiquity probably predate the ubiquity of bank loans.
