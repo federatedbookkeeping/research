@@ -139,7 +139,7 @@
               <tbody><tr>
                 <td>
                   <pre></pre></td></tr><tr valign="top"><td>Code:</td>
-  <td>2021-12-084</td></tr>
+  <td>2021-12-095</td></tr>
 <tr valign="top"><td>Requestor:</td>
   <td>Bänz Schenk et al.</td></tr>
 <tr valign="top"><td>Email:</td>
@@ -167,7 +167,7 @@ between independent software projects on the user-operated internet.
 The topic we chose is timesheet data. Each project has a timesheet system to track billable hours.
 Workers often spend time manually filling in this data multiple times.
 
-Instead, a worker's time tracker app (locally or on a self-hosted server) could expose machine-readable
+Instead, we'll make time tracker apps (locally or on a self-hosted server) expose machine-readable
 timesheet data through a query endpoint (reader pull) or through a webhook (writer push).
 
 Timesheet data is relatively simple in terms of data format, data replication only flows in one direction,
@@ -176,7 +176,9 @@ and there are not too many identities involved in the authentication / authoriza
 This simplicity makes the "Federated Timesheets" project an ideal case study for Federated Bookkeeping in general.
 We want to show case how our vision of Federated Bookkeeping can make internet users "connected but sovereign".</td></tr>
 <tr valign="top"><td>Experience:</td>
-  <td>#### Team:
+  <td>Our team is uniquely qualified to deliver on this proposal because of our combined backgrounds in development, research and data management.
+#### Team:
+
 * Bänz Schenk (Switzerland) is a senior php developer at Ponder Source, focused on FOSS development
 * George Svarovsky (UK) is an expert in data management, shared data types and linked data, and the lead developer of m-ld, for which he received NGI Assure funding
 * Victor Emanouilov (Bulgaria) is a senior developer of WikiSuite, and most involved in WikiSuite's data federation roadmap
@@ -186,12 +188,12 @@ We want to show case how our vision of Federated Bookkeeping can make internet u
 
 #### Advisors:
 * Marc Laporte (Canada) is the long-term visionary behind "WikiSuite"
-* Michiel de Jong (Netherlands) is the founder of "Ponder Source" and sparked the "Federated Bookkeeping" movement
-</td></tr>
+* Michiel de Jong (Netherlands) is the founder of "Ponder Source" and sparked the "Federated Bookkeeping" movement</td></tr>
 <tr valign="top"><td>Amount:</td>
   <td>50000</td></tr>
 <tr valign="top"><td>Use:</td>
-  <td># 3 Additional Publishers (5kEUR  each):
+  <td>The requested budget will mainly be used on interoperability development between existing timesheet tools.
+# 3 Additional Publishers (5kEUR  each):
 We already have 2 publishers of Federated Timesheet data working ([uren.muze.nl](https://uren.muze.nl) and [AgendaUren](https://agenda-uren.nl)).
 Both are (still) closed-source and this development was financed by Ponder Source and Muze.
 We aim to add 3 more:
@@ -203,29 +205,27 @@ Nextcloud's open source TimeTracker app has a csv/json export function, but it d
 WikiSuite is a widely used open source web server stack, and a lot of timesheet data is stored in Tiki Trackers on WikiSuite installations. As part of the core WikiSuite team, Victor will add an API that allows reading out this data as machine-readable JSON, as a new feature of WikiSuite. The code developed for this feature will be merged into the main open source and freely licensed WikiSuite code repository. 
 
 ## Develop a simple example time tracker app using [m-ld](https://m-ld.org/), which can push its data to a configurable webhook (George Svarovsky)
+We think m-ld could be a useful foundation for a time tracker app.
 To demonstrate how m-ld could be used, George will create a simple open source and freely licensed time tracker demo app, and include a feature that allows the user to push out all change events to a remote webhook.
 
-# 1 Superset spec (3kEUR):
-* Aggregate the 5 publisher formats into one superset spec (Andrej Bagoutdinov)
+# 1 Superset spec and Documentation (9kEUR, Andrej Bagoutdinov):
+* Aggregate the 5 publisher formats into one superset spec
 * Submit this standard to the IETF as an Internet Draft
 * Help the 3 subscribers understand how to consume data from the 5 publishers.
+* Problem ownership, project management
+* Documentation, promotion, user support
 
 # 3 Subscribers (5kEUR each):
 ## Newly developed Nextcloud invoice generator that can read from 5 data source types (Bänz Schenk)
 Integrating with the Nextcloud app that Michiel de Jong is developing for the "Peppol for the Masses" grant, Bänz will develop a simple invoice generator in PHP, that can compose invoices aggregating data about billable hours, which it receives from any of the 5 data source types. The code for this feature will be open source and freely licensed.
 
-## Make the app based on m-ld read from the other 4 data source types (George Svarovsky)
+## Make the time tracker demo app based on m-ld read from the other 4 data source types (George Svarovsky)
 
 Apart from being able to subscribe to a data source from another instance of the same app, George's simple time tracker app will also be able to subscribe to timesheet data from any of the other 4 data source types. The code for this feature will be open source and freely licensed.
 
 ## Make WikiSuite's [Tiki Trackers](https://doc.tiki.org/Trackers) read from the other 4 data source types (Victor Emanouilov)
 
 Apart from being able to subscribe to a data source from another WikiSuite instance, Victor will also enable WikiSuite to subscribe to timesheet data from any of the other 4 data source types. The code for this feature will be open source and freely licensed, and merged into the main WikiSuite code repository.
-
-# Overhead (remaining 7kEUR):
-* Problem ownership, project management (Andrej Bagoutdinov)
-* Documentation, promotion, user support (Andrej Bagoutdinov)
-* Travel, hosting, other expenses
 
 # Other (10kEUR):
 Apart from these milestones, which are the ones we agreed on with the team so far,
@@ -243,13 +243,15 @@ popular open source time tracking tools like Timetagger, Kimai, Pendulums, Titra
 ## Open Source API Improvements on uren.muze.nl and agenda-uren.nl
 Another option would be to open source uren.muze.nl and/or (part of) agenda-uren.nl,
 and work on improvements on the timesheet publisher APIs which we already developed using our own time and funds.
-</td></tr>
-<tr valign="top"><td>Comparison:</td>
-  <td>We could not find much existing work specifically on federated timesheets.
-We found one description of a project plan similar to ours, "P2P Time Ledger" (http://confocal-manawatu.pbworks.com/w/page/140705757/P2P%20Time%20Ledger), and we had a video call with the person behind it, Dmitry Solokov, but he confirmed that this project was never executed yet.
 
-So as far as we know this is the first serious attempt to solve the problem
+# Overhead (remaining 1kEUR):
+* Travel, hosting, other expenses</td></tr>
+<tr valign="top"><td>Comparison:</td>
+  <td>As far as we know this is the first serious attempt to solve the problem
 of manual timesheet data re-entry across multiple disconnected data storage systems. There is quite some prior art though, in spreadsheet technology and in federated data architectures with open protocols.
+
+We could not find much existing work specifically on federated timesheets.
+We found one description of a project plan similar to ours, "P2P Time Ledger" (http://confocal-manawatu.pbworks.com/w/page/140705757/P2P%20Time%20Ledger), and we had a video call with the person behind it, Dmitry Solokov, but he confirmed that this project was never executed yet.
 
 In spreadsheet technology there, for instance, is the concept of a "data source", which comes close to the machine-readable query endpoints we will be building, and especially George Svarovsky brings a lot of knowledge about this to the team.
 
@@ -269,13 +271,15 @@ Regarding integration with existing spreadsheet software like LibreOffice Calc a
 sandboxing works, so this might prove impossible.
 
 Regarding contributing to existing open source time trackers, we don't know what each project's policy is for accepting external contributions,
-so we could contact multiple projects and ask them, and then continue with the ones that respond positively.
-</td></tr>
+so we could contact multiple projects and ask them, and then continue with the ones that respond positively.</td></tr>
 <tr valign="top"><td>Ecosystem:</td>
   <td>The ecosystem of this projects expands at two levels. At the technological level, there is the Federated Bookkeeping community (https://federatedbookkeeping.org) which has only just started to grow this year, and we see this project as a pilot for years of research and development to come. If we can federate timesheet data, then we can also federate shopping cart data, inventory data, production scheduling data, and any other kind of business and project planning data.
 We already received NGI Assure funding for two projects in Federated Bookkeeping: "Peppol for the Masses" (NGI Assure grant to Michiel de Jong, ongoing) and "Collaborative Invoice Composition" (one of two use-cases of NGI Assure grant to George Svarovsky). We hold a community call every Thursday morning, with usually about 6 participants, and there are 30 community members in our Gitter channel. This third grant would give us a great demo to show when pitching the vision of Federated Bookkeeping to innovation departments of big corporations, for which we already made some first connections.
 
-At the end-user level of user-operated internet, we would benefit from Federated Timesheets in the way our open source projects collaborate.
+At the end-user level of user-operated internet, Federated Timesheets will facilitate new levels of cooperation and innovation,
+as users can easily and more fluidly work together on projects and will no longer have to manually copy-paste their working hours into several closed systems.
+
+We know we would benefit from Federated Timesheets ourselves, in the way our open source projects collaborate in our personal experience.
 
 In fact, Federated Timesheets are already in use between Muze (data publisher) and Ponder Source (data subscriber), and between AgendaUren (data publisher) and Ponder Source (data subscriber).
 
