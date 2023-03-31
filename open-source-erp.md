@@ -121,6 +121,9 @@ In decreasing order of monthly code contributors:
 * FrontAccounting [~ 1](https://github.com/FrontAccountingERP/FA/pulse/monthly)
  - php
 
+* Kraft https://volle-kraft-voraus.de/ [~ 1](https://github.com/dragotin/kraft/pulse/monthly)
+  - C++
+
 * SQL-Ledger [~ 0](https://github.com/Tekki/sql-ledger/pulse/monthly)
   - Perl
 
