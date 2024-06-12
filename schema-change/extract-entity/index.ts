@@ -52,13 +52,15 @@ class NewDataSet {
 }
 
 function toNew(old: OldDataSet): NewDataSet {
-  const customers: Customer[] = [];
+  const customers: {
+    [index: string]: Customer
+   } = {};
   const orders: NewOrder[] = old.orders.map((oldOrder) => {
     const customer = new Customer(oldOrder.customerName, oldOrder.customerAddress);
-    customers.push(customer);
+    customers[`${customer.name}:${customer.address}`] = customer;
     return new NewOrder(oldOrder.item, oldOrder.quantity, oldOrder.shipdate, customer)
   });
-  return new NewDataSet(orders, customers);
+  return new NewDataSet(orders,Object.values(customers));
 }
 
 function toOld(newDataSet: NewDataSet): OldDataSet {
@@ -67,3 +69,12 @@ function toOld(newDataSet: NewDataSet): OldDataSet {
   });
   return new OldDataSet(orders);
 }
+
+const before = new OldDataSet([
+  new OldOrder('Anvil', 1, '2023-02-03', 'Wile E Coyote', '123 Desert Station'),
+  new OldOrder('Dynamite', 2, null, 'Daffy Duck', 'White Rock Lake'),
+  new OldOrder('Bird Seed', 1, null, 'Wile E Coyote', '123 Desert Station'),
+]);
+console.log(before);
+const after = toNew(before);
+console.log(after);

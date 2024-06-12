@@ -1,0 +1,4 @@
+
+```
+deno run ./index.ts
+```
