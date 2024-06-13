@@ -78,3 +78,17 @@ const before = new OldDataSet([
 console.log(before);
 const after = toNew(before);
 console.log(after);
+const back = toOld(after);
+console.log("are they the same?", JSON.stringify(before) === JSON.stringify(back));
+
+function toShippingDepartmentNew(newDataSet: NewDataSet): NewOrder[] {
+  return newDataSet.orders.filter((newOrder) => (newOrder.shipdate === null))
+}
+function toShippingDepartmentOld(oldDataSet: OldDataSet): OldOrder[] {
+  return oldDataSet.orders.filter((oldOrder) => (oldOrder.shipdate === null));
+}
+
+const shippingDepartmentBefore = toShippingDepartmentOld(before);
+console.log(shippingDepartmentBefore);
+const shippingDepartmentAfter = toShippingDepartmentNew(after);
+console.log(shippingDepartmentAfter);
